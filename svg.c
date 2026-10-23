@@ -20,5 +20,8 @@ void export_svg(Shape *listshape[], int nbr_shape)
     }
 
     FILE *File = fopen("graphic_shape.svg", "w");
+    fprintf(File, " %d", 1);
+
+    fclose(File);
 }
 */
